@@ -1,0 +1,155 @@
+* {
+    text-decoration: none;
+    outline: none;
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    width: 100%;
+    height: 100px;
+    background: #ffd89b;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #19547b, #ffd89b);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #ffd89b, #19547b); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+    display: block;
+}
+
+.inner-header {
+    width: 1000px;
+    height: 100%;
+    display: block;
+   
+    margin: 0 auto;
+}
+
+.logo  {
+    height: 100%;
+    display: table;
+    float: left;
+}
+
+.logo img{
+    height: 100%;
+    width: 200px;
+    border-radius: 25%;
+
+}
+
+.navigation {
+    float: right;
+    height: 100%;
+    display: table;
+}
+
+.navigation li:last-child {
+    padding-right: 0;
+}
+
+.navigation li {
+    height: 100%;
+    display: table-cell;
+    vertical-align: middle;
+    padding: 0 20px;
+}
+.navigation li a {
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.navigation li a:hover {
+    background: white;
+    color: tomato;
+    transition: background 0.5s;
+}
+
+.footer-main {
+    width: 100%;
+    height: auto;
+    margin: 0;
+    padding: 20px 0px;
+    background: #272727;
+}
+
+.footer-social-icons{
+    width: 100%;
+    height: auto;
+    margin: 0;
+}
+.footer-social-icons ul {
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+.footer-social-icons ul li {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+}
+
+.footer-social-icons ul li i{
+    color: crimson;
+    font-size: 25px;
+    line-height: 50px;
+    display: block;
+}
+.footer-social-icons ul li i:hover{
+    color: white;
+    transition: color 0.5s;
+}
+
+.footer-menu-one{
+    width: 100%;
+    height: auto;
+    margin: 0;
+}
+.footer-menu-one ul {
+    width: 100%;
+    height: auto;
+    margin: 0;
+    text-align: center;
+}
+.footer-menu-one ul li {
+    display: inline-block;
+    margin: 0 10px;
+}
+.footer-menu-one ul li a{
+    font-family: 'Open Sans', sans-serif;
+    color: white;
+    font-weight: none;
+    font-size: 15px;
+
+}
+
+
+.footer-menu-two{
+    width: 100%;
+    height: auto;
+    margin: 0;
+}
+.footer-menu-two ul {
+    width: 100%;
+    height: auto;
+    margin: 0;
+    text-align: center;
+}
+.footer-menu-two ul li {
+    display: inline-block;
+    margin: 0 10px;
+    margin-top: 20px;
+}
+.footer-menu-two ul li a{
+    font-family: 'Open Sans', sans-serif;
+    color: white;
+    font-weight: none;
+    font-size: 15px;
+
+}
+
+.sublist li{
+    display: block;
+    display: hide;
+}
+
+
